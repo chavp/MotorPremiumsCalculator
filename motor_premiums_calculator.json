@@ -1,0 +1,541 @@
+{
+  "motor_premiums_calculator": {
+    "version": "1.0",
+    "description": "Motor Insurance Premium Calculator Data Structure",
+    "last_updated": "2024-12-19",
+    "base_premium": {
+      "amount": 500.00,
+      "currency": "USD",
+      "description": "Base premium amount before applying factors"
+    },
+    "vehicle_factors": {
+      "vehicle_type": {
+        "description": "Type of vehicle being insured",
+        "options": {
+          "private_car": {
+            "multiplier": 1.0,
+            "description": "Private passenger vehicle"
+          },
+          "commercial_vehicle": {
+            "multiplier": 1.8,
+            "description": "Commercial use vehicle"
+          },
+          "motorcycle": {
+            "multiplier": 1.2,
+            "description": "Motorcycle or scooter"
+          },
+          "truck": {
+            "multiplier": 2.1,
+            "description": "Light to heavy commercial truck"
+          },
+          "bus": {
+            "multiplier": 2.5,
+            "description": "Passenger bus or coach"
+          }
+        }
+      },
+      "engine_capacity": {
+        "description": "Engine size in cubic centimeters (cc)",
+        "ranges": {
+          "under_1000cc": {
+            "multiplier": 0.8,
+            "description": "Small engine vehicles under 1000cc"
+          },
+          "1000_1500cc": {
+            "multiplier": 1.0,
+            "description": "Medium engine vehicles 1000-1500cc"
+          },
+          "1500_2000cc": {
+            "multiplier": 1.3,
+            "description": "Large engine vehicles 1500-2000cc"
+          },
+          "2000_3000cc": {
+            "multiplier": 1.6,
+            "description": "High performance vehicles 2000-3000cc"
+          },
+          "above_3000cc": {
+            "multiplier": 2.2,
+            "description": "Super high performance vehicles above 3000cc"
+          }
+        }
+      },
+      "vehicle_age": {
+        "description": "Age of the vehicle in years",
+        "ranges": {
+          "new_0_1_years": {
+            "multiplier": 1.1,
+            "description": "Brand new to 1 year old"
+          },
+          "1_3_years": {
+            "multiplier": 1.0,
+            "description": "1 to 3 years old"
+          },
+          "3_5_years": {
+            "multiplier": 0.9,
+            "description": "3 to 5 years old"
+          },
+          "5_10_years": {
+            "multiplier": 0.8,
+            "description": "5 to 10 years old"
+          },
+          "above_10_years": {
+            "multiplier": 0.7,
+            "description": "Older than 10 years"
+          }
+        }
+      },
+      "vehicle_value": {
+        "description": "Current market value of the vehicle",
+        "ranges": {
+          "under_10000": {
+            "multiplier": 0.7,
+            "description": "Vehicle value under $10,000"
+          },
+          "10000_25000": {
+            "multiplier": 1.0,
+            "description": "Vehicle value $10,000 - $25,000"
+          },
+          "25000_50000": {
+            "multiplier": 1.4,
+            "description": "Vehicle value $25,000 - $50,000"
+          },
+          "50000_100000": {
+            "multiplier": 1.8,
+            "description": "Vehicle value $50,000 - $100,000"
+          },
+          "above_100000": {
+            "multiplier": 2.5,
+            "description": "Luxury vehicles above $100,000"
+          }
+        }
+      },
+      "safety_rating": {
+        "description": "Vehicle safety rating impact",
+        "options": {
+          "5_star": {
+            "multiplier": 0.9,
+            "description": "5-star safety rating"
+          },
+          "4_star": {
+            "multiplier": 1.0,
+            "description": "4-star safety rating"
+          },
+          "3_star": {
+            "multiplier": 1.1,
+            "description": "3-star safety rating"
+          },
+          "below_3_star": {
+            "multiplier": 1.2,
+            "description": "Below 3-star safety rating"
+          },
+          "not_rated": {
+            "multiplier": 1.1,
+            "description": "No safety rating available"
+          }
+        }
+      }
+    },
+    "driver_factors": {
+      "age": {
+        "description": "Primary driver age ranges",
+        "ranges": {
+          "under_21": {
+            "multiplier": 2.5,
+            "description": "High risk young drivers"
+          },
+          "21_25": {
+            "multiplier": 1.8,
+            "description": "Young drivers 21-25"
+          },
+          "26_30": {
+            "multiplier": 1.3,
+            "description": "Young adult drivers 26-30"
+          },
+          "31_50": {
+            "multiplier": 1.0,
+            "description": "Prime age drivers 31-50"
+          },
+          "51_65": {
+            "multiplier": 1.1,
+            "description": "Mature drivers 51-65"
+          },
+          "above_65": {
+            "multiplier": 1.3,
+            "description": "Senior drivers above 65"
+          }
+        }
+      },
+      "experience": {
+        "description": "Years of driving experience",
+        "ranges": {
+          "0_1_years": {
+            "multiplier": 2.0,
+            "description": "New drivers with 0-1 years experience"
+          },
+          "2_5_years": {
+            "multiplier": 1.4,
+            "description": "Drivers with 2-5 years experience"
+          },
+          "6_10_years": {
+            "multiplier": 1.1,
+            "description": "Drivers with 6-10 years experience"
+          },
+          "11_20_years": {
+            "multiplier": 1.0,
+            "description": "Experienced drivers 11-20 years"
+          },
+          "above_20_years": {
+            "multiplier": 0.9,
+            "description": "Very experienced drivers above 20 years"
+          }
+        }
+      },
+      "driving_record": {
+        "description": "Driving history and violations",
+        "options": {
+          "clean_record": {
+            "multiplier": 0.9,
+            "description": "No violations or claims in past 5 years"
+          },
+          "minor_violations": {
+            "multiplier": 1.2,
+            "description": "1-2 minor traffic violations"
+          },
+          "major_violations": {
+            "multiplier": 1.6,
+            "description": "Major violations (DUI, reckless driving)"
+          },
+          "at_fault_claims": {
+            "multiplier": 1.5,
+            "description": "At-fault accident claims"
+          },
+          "multiple_claims": {
+            "multiplier": 2.0,
+            "description": "Multiple claims or violations"
+          }
+        }
+      },
+      "gender": {
+        "description": "Statistical risk factor by gender",
+        "options": {
+          "male": {
+            "multiplier": 1.1,
+            "description": "Male driver statistical adjustment"
+          },
+          "female": {
+            "multiplier": 1.0,
+            "description": "Female driver statistical adjustment"
+          },
+          "other": {
+            "multiplier": 1.0,
+            "description": "Other gender statistical adjustment"
+          }
+        }
+      },
+      "marital_status": {
+        "description": "Marital status impact on risk",
+        "options": {
+          "married": {
+            "multiplier": 0.9,
+            "description": "Married drivers typically lower risk"
+          },
+          "single": {
+            "multiplier": 1.1,
+            "description": "Single drivers statistical adjustment"
+          },
+          "divorced": {
+            "multiplier": 1.0,
+            "description": "Divorced drivers statistical adjustment"
+          },
+          "widowed": {
+            "multiplier": 1.0,
+            "description": "Widowed drivers statistical adjustment"
+          }
+        }
+      }
+    },
+    "location_factors": {
+      "area_type": {
+        "description": "Type of area where vehicle is primarily used",
+        "options": {
+          "urban": {
+            "multiplier": 1.3,
+            "description": "High traffic urban areas"
+          },
+          "suburban": {
+            "multiplier": 1.0,
+            "description": "Suburban residential areas"
+          },
+          "rural": {
+            "multiplier": 0.8,
+            "description": "Low traffic rural areas"
+          }
+        }
+      },
+      "crime_rate": {
+        "description": "Crime rate in the area affecting theft risk",
+        "options": {
+          "low": {
+            "multiplier": 0.9,
+            "description": "Low crime rate area"
+          },
+          "medium": {
+            "multiplier": 1.0,
+            "description": "Medium crime rate area"
+          },
+          "high": {
+            "multiplier": 1.4,
+            "description": "High crime rate area"
+          }
+        }
+      },
+      "weather_conditions": {
+        "description": "Typical weather conditions affecting driving risk",
+        "options": {
+          "mild": {
+            "multiplier": 1.0,
+            "description": "Favorable weather conditions year-round"
+          },
+          "seasonal_harsh": {
+            "multiplier": 1.2,
+            "description": "Seasonal harsh weather (snow, ice)"
+          },
+          "extreme_weather": {
+            "multiplier": 1.4,
+            "description": "Frequent extreme weather events"
+          }
+        }
+      }
+    },
+    "usage_factors": {
+      "annual_mileage": {
+        "description": "Expected annual mileage",
+        "ranges": {
+          "under_5000": {
+            "multiplier": 0.8,
+            "description": "Low mileage drivers under 5,000 miles/year"
+          },
+          "5000_10000": {
+            "multiplier": 0.9,
+            "description": "Average drivers 5,000-10,000 miles/year"
+          },
+          "10000_15000": {
+            "multiplier": 1.0,
+            "description": "Regular drivers 10,000-15,000 miles/year"
+          },
+          "15000_25000": {
+            "multiplier": 1.3,
+            "description": "High mileage drivers 15,000-25,000 miles/year"
+          },
+          "above_25000": {
+            "multiplier": 1.6,
+            "description": "Very high mileage drivers above 25,000 miles/year"
+          }
+        }
+      },
+      "usage_type": {
+        "description": "Primary use of the vehicle",
+        "options": {
+          "personal": {
+            "multiplier": 1.0,
+            "description": "Personal use only"
+          },
+          "commuting": {
+            "multiplier": 1.2,
+            "description": "Regular commuting to work"
+          },
+          "business": {
+            "multiplier": 1.5,
+            "description": "Business use"
+          },
+          "commercial": {
+            "multiplier": 1.8,
+            "description": "Commercial transportation"
+          },
+          "rideshare": {
+            "multiplier": 2.0,
+            "description": "Rideshare or taxi service"
+          }
+        }
+      },
+      "parking": {
+        "description": "Where the vehicle is typically parked",
+        "options": {
+          "private_garage": {
+            "multiplier": 0.8,
+            "description": "Secure private garage"
+          },
+          "private_driveway": {
+            "multiplier": 0.9,
+            "description": "Private driveway or carport"
+          },
+          "street_parking": {
+            "multiplier": 1.2,
+            "description": "On-street parking"
+          },
+          "public_lot": {
+            "multiplier": 1.1,
+            "description": "Public parking lot"
+          }
+        }
+      }
+    },
+    "coverage_options": {
+      "liability_coverage": {
+        "description": "Third-party liability coverage limits",
+        "options": {
+          "minimum_required": {
+            "multiplier": 1.0,
+            "description": "State minimum liability coverage"
+          },
+          "standard": {
+            "multiplier": 1.2,
+            "description": "Standard liability coverage"
+          },
+          "enhanced": {
+            "multiplier": 1.5,
+            "description": "Enhanced liability coverage"
+          },
+          "maximum": {
+            "multiplier": 2.0,
+            "description": "Maximum liability coverage"
+          }
+        }
+      },
+      "comprehensive_coverage": {
+        "description": "Comprehensive coverage for theft, vandalism, natural disasters",
+        "enabled": {
+          "multiplier": 1.3,
+          "description": "Comprehensive coverage included"
+        },
+        "disabled": {
+          "multiplier": 1.0,
+          "description": "No comprehensive coverage"
+        }
+      },
+      "collision_coverage": {
+        "description": "Collision coverage for vehicle damage",
+        "enabled": {
+          "multiplier": 1.4,
+          "description": "Collision coverage included"
+        },
+        "disabled": {
+          "multiplier": 1.0,
+          "description": "No collision coverage"
+        }
+      },
+      "deductible": {
+        "description": "Deductible amount for claims",
+        "amounts": {
+          "250": {
+            "multiplier": 1.3,
+            "description": "$250 deductible"
+          },
+          "500": {
+            "multiplier": 1.2,
+            "description": "$500 deductible"
+          },
+          "1000": {
+            "multiplier": 1.0,
+            "description": "$1,000 deductible"
+          },
+          "2500": {
+            "multiplier": 0.8,
+            "description": "$2,500 deductible"
+          },
+          "5000": {
+            "multiplier": 0.6,
+            "description": "$5,000 deductible"
+          }
+        }
+      }
+    },
+    "discounts": {
+      "description": "Available discounts that reduce premium",
+      "multi_policy": {
+        "multiplier": 0.85,
+        "description": "Discount for bundling with other policies"
+      },
+      "safe_driver": {
+        "multiplier": 0.9,
+        "description": "Safe driver discount for clean record"
+      },
+      "defensive_driving": {
+        "multiplier": 0.95,
+        "description": "Completed defensive driving course"
+      },
+      "anti_theft": {
+        "multiplier": 0.93,
+        "description": "Vehicle has anti-theft system"
+      },
+      "good_student": {
+        "multiplier": 0.9,
+        "description": "Good student discount for young drivers"
+      },
+      "senior_discount": {
+        "multiplier": 0.92,
+        "description": "Senior citizen discount"
+      },
+      "low_mileage": {
+        "multiplier": 0.88,
+        "description": "Low annual mileage discount"
+      },
+      "automatic_payment": {
+        "multiplier": 0.97,
+        "description": "Automatic payment setup discount"
+      },
+      "paperless_billing": {
+        "multiplier": 0.99,
+        "description": "Paperless billing discount"
+      }
+    },
+    "payment_options": {
+      "annual": {
+        "multiplier": 0.9,
+        "description": "Annual payment discount"
+      },
+      "semi_annual": {
+        "multiplier": 0.95,
+        "description": "Semi-annual payment"
+      },
+      "quarterly": {
+        "multiplier": 1.0,
+        "description": "Quarterly payment"
+      },
+      "monthly": {
+        "multiplier": 1.08,
+        "description": "Monthly payment with processing fee"
+      }
+    },
+    "calculation_formula": {
+      "description": "Formula for calculating final premium",
+      "steps": [
+        "Start with base_premium",
+        "Apply vehicle_factors (multiply all applicable)",
+        "Apply driver_factors (multiply all applicable)",
+        "Apply location_factors (multiply all applicable)",
+        "Apply usage_factors (multiply all applicable)",
+        "Apply coverage_options (multiply all applicable)",
+        "Apply discounts (multiply all applicable)",
+        "Apply payment_option multiplier",
+        "Round to nearest currency unit"
+      ],
+      "formula": "final_premium = base_premium × vehicle_factors × driver_factors × location_factors × usage_factors × coverage_options × discounts × payment_option"
+    },
+    "validation_rules": {
+      "minimum_premium": 200.00,
+      "maximum_premium": 10000.00,
+      "required_fields": [
+        "vehicle_type",
+        "engine_capacity",
+        "vehicle_age",
+        "driver_age",
+        "driving_experience",
+        "area_type",
+        "annual_mileage",
+        "usage_type",
+        "liability_coverage"
+      ]
+    }
+  }
+}
