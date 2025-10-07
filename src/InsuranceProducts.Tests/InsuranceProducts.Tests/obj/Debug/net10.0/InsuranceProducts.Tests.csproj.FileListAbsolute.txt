@@ -1,0 +1,465 @@
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\testhost.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\testhost.exe
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.runner.json
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.abstractions.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.runner.visualstudio.testadapter.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.exe
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.deps.json
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.runtimeconfig.json
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.pdb
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Testing.Platform.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Testing.Extensions.MSBuild.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.Utilities.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.v3.assert.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.v3.common.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.v3.core.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.v3.runner.common.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.v3.runner.inproc.console.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.Testing.Platform.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.csproj.AssemblyReference.cache
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.gentestingplatformentrypointinputcache.cache
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.genautoregisteredextensionsinputcache.cache
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\SelfRegisteredExtensions.cs
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.xUnit.v3.EntryPoint.cache
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\XunitAutoGeneratedEntryPoint.cs
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.AssemblyInfoInputs.cache
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.AssemblyInfo.cs
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.csproj.CoreCompileInputs.cache
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\Insuranc.7718043B.Up2Date
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\refint\InsuranceProducts.Tests.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.pdb
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.genruntimeconfig.cache
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\ref\InsuranceProducts.Tests.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Ensure.That.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Caching.Memory.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Logging.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Options.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Primitives.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Npgsql.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Humanizer.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Build.Locator.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.CodeDom.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\backlogs\#6 - Validation\docs\motor_premiums\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.csproj.AssemblyReference.cache
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.gentestingplatformentrypointinputcache.cache
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.genautoregisteredextensionsinputcache.cache
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\SelfRegisteredExtensions.cs
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.xUnit.v3.EntryPoint.cache
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\XunitAutoGeneratedEntryPoint.cs
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.AssemblyInfoInputs.cache
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.AssemblyInfo.cs
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.csproj.CoreCompileInputs.cache
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.sourcelink.json
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\testhost.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\testhost.exe
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.runner.json
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.abstractions.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.runner.visualstudio.testadapter.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.exe
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.deps.json
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.runtimeconfig.json
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.pdb
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Ensure.That.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Humanizer.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Build.Locator.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Caching.Memory.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Logging.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Options.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Extensions.Primitives.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Testing.Platform.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.Testing.Extensions.MSBuild.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.Utilities.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Npgsql.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.CodeDom.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.v3.assert.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.v3.common.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.v3.core.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.v3.runner.common.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\xunit.v3.runner.inproc.console.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.Testing.Platform.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\Insuranc.7718043B.Up2Date
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\refint\InsuranceProducts.Tests.dll
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.pdb
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\InsuranceProducts.Tests.genruntimeconfig.cache
+C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\obj\Debug\net10.0\ref\InsuranceProducts.Tests.dll

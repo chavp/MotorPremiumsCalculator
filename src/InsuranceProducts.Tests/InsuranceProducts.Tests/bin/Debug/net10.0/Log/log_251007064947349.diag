@@ -1,0 +1,21 @@
+2025-10-07T06:49:47.3652944+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.3+5abdae1f2e07071c4e81b27ac262f241708ec3cf
+2025-10-07T06:49:47.3772456+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-10-07T06:49:47.3782550+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-10-07T06:49:47.3782622+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 06:49:47.294
+2025-10-07T06:49:47.4213563+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 23628
+2025-10-07T06:49:47.4214332+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 10.0.0-rc.1.25451.107
+2025-10-07T06:49:47.4214600+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.0-rc.1.25451.107\System.Private.CoreLib.dll
+2025-10-07T06:49:47.4214812+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-10-07T06:49:47.4215751+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.dll
+2025-10-07T06:49:47.4217395+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Log --results-directory C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\TestResults --client-port 56089'
+2025-10-07T06:49:47.4263945+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-10-07T06:49:47.4525291+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-10-07T06:49:47.4928603+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-10-07T06:49:48.2099645+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.0.0' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2025-10-07T06:49:48.2162350+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.0.0+d0213fc4e5 (64-bit .NET 10.0.0-rc.1.25451.107)
+2025-10-07T06:49:48.3294916+00:00 xUnit.net INFORMATION   Discovering: InsuranceProducts.Tests
+2025-10-07T06:49:48.4219247+00:00 xUnit.net INFORMATION   Discovered:  InsuranceProducts.Tests
+2025-10-07T06:49:48.4584046+00:00 xUnit.net INFORMATION   Starting:    InsuranceProducts.Tests
+2025-10-07T06:49:52.2597560+00:00 xUnit.net INFORMATION   Finished:    InsuranceProducts.Tests
+2025-10-07T06:49:52.2662220+00:00 xUnit.net INFORMATION === TEST EXECUTION SUMMARY ===
+2025-10-07T06:49:52.2710101+00:00 xUnit.net INFORMATION    InsuranceProducts.Tests  Total: 1, Errors: 0, Failed: 0, Skipped: 0, Not Run: 0, Time: 3.815s

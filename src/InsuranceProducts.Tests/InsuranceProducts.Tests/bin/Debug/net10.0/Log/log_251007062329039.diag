@@ -1,0 +1,52 @@
+2025-10-07T06:23:29.0545908+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.3+5abdae1f2e07071c4e81b27ac262f241708ec3cf
+2025-10-07T06:23:29.0705829+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-10-07T06:23:29.0736929+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-10-07T06:23:29.0737097+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 06:23:28.990
+2025-10-07T06:23:29.1052493+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 15216
+2025-10-07T06:23:29.1053388+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 10.0.0-rc.1.25451.107
+2025-10-07T06:23:29.1053655+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.0-rc.1.25451.107\System.Private.CoreLib.dll
+2025-10-07T06:23:29.1053930+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-10-07T06:23:29.1055547+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\InsuranceProducts.Tests.dll
+2025-10-07T06:23:29.1060340+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\bin\Debug\net10.0\Log --results-directory C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\TestResults --client-port 55667'
+2025-10-07T06:23:29.1087764+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-10-07T06:23:29.1327105+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-10-07T06:23:29.1669555+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-10-07T06:23:29.5349843+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.0.0' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2025-10-07T06:23:29.5387030+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.0.0+d0213fc4e5 (64-bit .NET 10.0.0-rc.1.25451.107)
+2025-10-07T06:23:29.6032752+00:00 xUnit.net INFORMATION   Discovering: InsuranceProducts.Tests
+2025-10-07T06:23:29.6760018+00:00 xUnit.net INFORMATION   Discovered:  InsuranceProducts.Tests
+2025-10-07T06:23:29.6996856+00:00 xUnit.net INFORMATION   Starting:    InsuranceProducts.Tests
+2025-10-07T06:23:34.4239731+00:00 xUnit.net ERROR     InsuranceProducts.Tests.CoverageTypeTests.Test1 [FAIL]
+2025-10-07T06:23:34.4245356+00:00 xUnit.net INFORMATION       Microsoft.EntityFrameworkCore.DbUpdateException : An error occurred while saving the entity changes. See the inner exception for details.
+2025-10-07T06:23:34.4245478+00:00 xUnit.net INFORMATION       ---- Npgsql.PostgresException : 23502: null value in column "Description" of relation "CoverageTypes" violates not-null constraint
+2025-10-07T06:23:34.4245504+00:00 xUnit.net INFORMATION       
+2025-10-07T06:23:34.4245512+00:00 xUnit.net INFORMATION       DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2025-10-07T06:23:34.4248939+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-10-07T06:23:34.4256673+00:00 xUnit.net INFORMATION            at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+2025-10-07T06:23:34.4256833+00:00 xUnit.net INFORMATION            at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+2025-10-07T06:23:34.4256873+00:00 xUnit.net INFORMATION            at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+2025-10-07T06:23:34.4256913+00:00 xUnit.net INFORMATION            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+2025-10-07T06:23:34.4256948+00:00 xUnit.net INFORMATION            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+2025-10-07T06:23:34.4256980+00:00 xUnit.net INFORMATION            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+2025-10-07T06:23:34.4257034+00:00 xUnit.net INFORMATION            at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+2025-10-07T06:23:34.4257065+00:00 xUnit.net INFORMATION            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-10-07T06:23:34.4257261+00:00 xUnit.net INFORMATION            at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-10-07T06:23:34.4257280+00:00 xUnit.net INFORMATION            at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+2025-10-07T06:23:34.4257636+00:00 xUnit.net INFORMATION         C:\data\MotorPremiumsCalculator\src\InsuranceProducts.Tests\InsuranceProducts.Tests\CoverageTypeTests.cs(23,0): at InsuranceProducts.Tests.CoverageTypeTests.Test1()
+2025-10-07T06:23:34.4257686+00:00 xUnit.net INFORMATION            at InvokeStub_CoverageTypeTests.Test1(Object, Object, IntPtr*)
+2025-10-07T06:23:34.4257712+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-10-07T06:23:34.4257720+00:00 xUnit.net INFORMATION         ----- Inner Stack Trace -----
+2025-10-07T06:23:34.4257760+00:00 xUnit.net INFORMATION            at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+2025-10-07T06:23:34.4257802+00:00 xUnit.net INFORMATION            at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+2025-10-07T06:23:34.4257836+00:00 xUnit.net INFORMATION            at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+2025-10-07T06:23:34.4257874+00:00 xUnit.net INFORMATION            at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+2025-10-07T06:23:34.4257892+00:00 xUnit.net INFORMATION            at Npgsql.NpgsqlDataReader.NextResult()
+2025-10-07T06:23:34.4257921+00:00 xUnit.net INFORMATION            at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+2025-10-07T06:23:34.4257968+00:00 xUnit.net INFORMATION            at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+2025-10-07T06:23:34.4258001+00:00 xUnit.net INFORMATION            at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+2025-10-07T06:23:34.4258029+00:00 xUnit.net INFORMATION            at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+2025-10-07T06:23:34.4258116+00:00 xUnit.net INFORMATION            at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+2025-10-07T06:23:34.4258200+00:00 xUnit.net INFORMATION            at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+2025-10-07T06:23:34.4357513+00:00 xUnit.net INFORMATION   Finished:    InsuranceProducts.Tests
+2025-10-07T06:23:34.4433366+00:00 xUnit.net INFORMATION === TEST EXECUTION SUMMARY ===
+2025-10-07T06:23:34.4476661+00:00 xUnit.net INFORMATION    InsuranceProducts.Tests  Total: 1, Errors: 0, Failed: 1, Skipped: 0, Not Run: 0, Time: 4.743s
