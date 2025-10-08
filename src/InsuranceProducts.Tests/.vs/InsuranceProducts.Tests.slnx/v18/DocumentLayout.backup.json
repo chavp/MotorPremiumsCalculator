@@ -3,56 +3,16 @@
   "WorkspaceRootPath": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Migrations\\20251008053609_covAvaila2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InsuranceProducts.Tests\\Migrations\\20251008053609_covAvaila2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\coveragetypetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\coveragetypetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\infrastructure\\persistence\\productsdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\infrastructure\\persistence\\productsdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\infrastructure\\persistence\\configurations\\coveragelevelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\infrastructure\\persistence\\configurations\\coveragelevelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\domain\\products\\entities\\coverageamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\domain\\products\\entities\\coverageamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\domain\\products\\entities\\coveragelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\domain\\products\\entities\\coveragelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\domain\\products\\entities\\coveragebasis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\domain\\products\\entities\\coveragebasis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\domain\\products\\entities\\coverageleveltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\domain\\products\\entities\\coverageleveltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\domain\\products\\entities\\coveragetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\domain\\products\\entities\\coveragetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\infrastructure\\persistence\\configurations\\coverageavailabilitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\infrastructure\\persistence\\configurations\\coverageavailabilitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\infrastructure\\persistence\\configurations\\coveragebasisconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\infrastructure\\persistence\\configurations\\coveragebasisconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\infrastructure\\persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\infrastructure\\persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\infrastructure\\persistence\\configurations\\coveragetypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\infrastructure\\persistence\\configurations\\coveragetypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Migrations\\20251008041433_init4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InsuranceProducts.Tests\\Migrations\\20251008041433_init4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,174 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20251008053609_covAvaila2.cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Migrations\\20251008053609_covAvaila2.cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Migrations\\20251008053609_covAvaila2.cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Migrations\\20251008053609_covAvaila2.cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\Migrations\\20251008053609_covAvaila2.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CoverageAmount.cs",
+              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageAmount.cs",
+              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageAmount.cs",
+              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageAmount.cs",
+              "RelativeToolTip": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageAmount.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T05:36:09.894Z",
+              "WhenOpened": "2025-10-08T08:44:08.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductsDbContext .cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\ProductsDbContext .cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\ProductsDbContext .cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\ProductsDbContext .cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\ProductsDbContext .cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAADwvw4AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T05:03:23.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CoverageLevel.cs",
               "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageLevel.cs",
               "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageLevel.cs",
               "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageLevel.cs",
               "RelativeToolTip": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageLevel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T04:54:28.231Z",
+              "WhenOpened": "2025-10-08T08:43:12.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CoverageBasis.cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageBasis.cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageBasis.cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageBasis.cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageBasis.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T04:53:37.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CoverageType.cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageType.cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageType.cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageType.cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T04:53:20.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CoverageAvailabilityTypeConfiguration.cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageAvailabilityTypeConfiguration.cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageAvailabilityTypeConfiguration.cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageAvailabilityTypeConfiguration.cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageAvailabilityTypeConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T04:32:33.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20251008041433_init4.cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Migrations\\20251008041433_init4.cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Migrations\\20251008041433_init4.cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Migrations\\20251008041433_init4.cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\Migrations\\20251008041433_init4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T04:14:33.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CoverageBasisConfiguration.cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageBasisConfiguration.cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageBasisConfiguration.cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageBasisConfiguration.cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageBasisConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T04:05:48.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CoverageLevelConfiguration.cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageLevelConfiguration.cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageLevelConfiguration.cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageLevelConfiguration.cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageLevelConfiguration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T04:05:46.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CoverageLevelType.cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageLevelType.cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageLevelType.cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageLevelType.cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageLevelType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T03:40:49.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CoverageTypeTests.cs",
               "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\CoverageTypeTests.cs",
               "RelativeDocumentMoniker": "InsuranceProducts.Tests\\CoverageTypeTests.cs",
               "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\CoverageTypeTests.cs",
               "RelativeToolTip": "InsuranceProducts.Tests\\CoverageTypeTests.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAIAwwHoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAwJUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T03:36:50.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\ProductConfiguration.cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\ProductConfiguration.cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\ProductConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T03:33:11.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CoverageTypeConfiguration.cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageTypeConfiguration.cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageTypeConfiguration.cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageTypeConfiguration.cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\Infrastructure\\Persistence\\Configurations\\CoverageTypeConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T03:32:59.104Z",
+              "WhenOpened": "2025-10-08T08:42:46.299Z",
               "EditorCaption": ""
             }
           ]

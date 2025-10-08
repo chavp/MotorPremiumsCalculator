@@ -23,5 +23,10 @@ internal sealed class CoverageLevelConfiguration : IEntityTypeConfiguration<Cove
             .WithMany()
             .OnDelete(DeleteBehavior.Cascade)
             .IsRequired();
+
+        builder.HasOne(cl => cl.Unit)
+            .WithMany()
+            .OnDelete(DeleteBehavior.Cascade)
+            .IsRequired();
     }
 }

@@ -49,12 +49,12 @@ public sealed class CoverageType : Entity<Guid>
 
         public CoverageType Build()
         {
-            var newCoverageType = new CoverageType(this);
+            var newEntity = new CoverageType(this);
             if (Description != null && !Description.IsEmpty)
             {
-                newCoverageType.UpdateDescription(Description);
+                newEntity.UpdateDescription(Description);
             }
-            return newCoverageType;
+            return newEntity;
         }
     }
 }

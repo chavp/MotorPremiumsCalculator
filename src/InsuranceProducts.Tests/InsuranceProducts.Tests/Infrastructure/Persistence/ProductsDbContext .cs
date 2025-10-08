@@ -3,6 +3,7 @@ using InsuranceProducts.Tests.Domain.SharedKernel;
 using InsuranceProducts.Tests.Infrastructure.Persistence.Configurations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System.Reflection;
 
 namespace InsuranceProducts.Tests.Infrastructure.Persistence
 {
@@ -25,20 +26,30 @@ namespace InsuranceProducts.Tests.Infrastructure.Persistence
         public DbSet<CoverageBasis> CoverageBasises { get; set; }
         public DbSet<CoverageLevel> CoverageLevels { get; set; }
 
+        // Units
+        public DbSet<UnitCategory> UnitCategories { get; set; }
+        public DbSet<Unit> Units { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
             // Apply configurations for all entities
-            modelBuilder.ApplyConfiguration(new ProductConfiguration());
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ProductsDbContext).Assembly);
 
-            modelBuilder.ApplyConfiguration(new CoverageAvailabilityTypeConfiguration());
-            modelBuilder.ApplyConfiguration(new CoverageAvailabilityConfiguration());
+            //modelBuilder.ApplyConfiguration(new ProductConfiguration());
 
-            modelBuilder.ApplyConfiguration(new CoverageTypeConfiguration());
-            modelBuilder.ApplyConfiguration(new CoverageLevelConfiguration());
-            modelBuilder.ApplyConfiguration(new CoverageLevelTypeConfiguration());
-            modelBuilder.ApplyConfiguration(new CoverageBasisConfiguration());
+            //modelBuilder.ApplyConfiguration(new CoverageAvailabilityTypeConfiguration());
+            //modelBuilder.ApplyConfiguration(new CoverageAvailabilityConfiguration());
+
+            //modelBuilder.ApplyConfiguration(new CoverageTypeConfiguration());
+            //modelBuilder.ApplyConfiguration(new CoverageLevelConfiguration());
+            //modelBuilder.ApplyConfiguration(new CoverageLevelTypeConfiguration());
+            //modelBuilder.ApplyConfiguration(new CoverageBasisConfiguration());
+
+            //// Unit Of Measure
+            //modelBuilder.ApplyConfiguration(new UnitCategoryConfiguration());
+            //modelBuilder.ApplyConfiguration(new UnitConfiguration());
 
             // Configure schema separation for bounded contexts
             ConfigureSchemas(modelBuilder);
@@ -66,6 +77,9 @@ namespace InsuranceProducts.Tests.Infrastructure.Persistence
             modelBuilder.Entity<CoverageAvailabilityType>().ToTable("CoverageAvailabilityTypes", productsSchemas);
             modelBuilder.Entity<CoverageAvailability>().ToTable("CoverageAvailabilities", productsSchemas);
 
+            // Unit Of Measure
+            modelBuilder.Entity<UnitCategory>().ToTable("UnitCategories", productsSchemas);
+            modelBuilder.Entity<Unit>().ToTable("Units", productsSchemas);
         }
 
         private static void ConfigureConventions(ModelBuilder modelBuilder)

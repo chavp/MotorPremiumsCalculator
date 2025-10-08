@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace InsuranceProducts.Tests.Migrations
 {
     /// <inheritdoc />
-    public partial class covAvaiType2 : Migration
+    public partial class initUnits : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -95,6 +95,22 @@ namespace InsuranceProducts.Tests.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "UnitCategories",
+                schema: "products",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Code = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
+                    Description = table.Column<string>(type: "character varying(2000)", maxLength: 2000, nullable: true),
+                    CreatedDateUtc = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    LastModifiedDateUtc = table.Column<DateTime>(type: "timestamp with time zone", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_UnitCategories", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "CoverageLevels",
                 schema: "products",
                 columns: table => new
@@ -125,6 +141,31 @@ namespace InsuranceProducts.Tests.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Units",
+                schema: "products",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Code = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
+                    Description = table.Column<string>(type: "character varying(2000)", maxLength: 2000, nullable: true),
+                    Symbol = table.Column<string>(type: "character varying(5)", maxLength: 5, nullable: true),
+                    UnitCategoryId = table.Column<Guid>(type: "uuid", nullable: false),
+                    CreatedDateUtc = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    LastModifiedDateUtc = table.Column<DateTime>(type: "timestamp with time zone", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Units", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Units_UnitCategories_UnitCategoryId",
+                        column: x => x.UnitCategoryId,
+                        principalSchema: "products",
+                        principalTable: "UnitCategories",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "CoverageAmounts",
                 schema: "products",
                 columns: table => new
@@ -143,6 +184,76 @@ namespace InsuranceProducts.Tests.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "CoverageAvailabilities",
+                schema: "products",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    ProductId = table.Column<Guid>(type: "uuid", nullable: false),
+                    CoverageAvailabilityTypeId = table.Column<Guid>(type: "uuid", nullable: false),
+                    CoverageTypeId = table.Column<Guid>(type: "uuid", nullable: false),
+                    CoverageLevelId = table.Column<Guid>(type: "uuid", nullable: false),
+                    CreatedDateUtc = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    LastModifiedDateUtc = table.Column<DateTime>(type: "timestamp with time zone", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_CoverageAvailabilities", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_CoverageAvailabilities_CoverageAvailabilityTypes_CoverageAv~",
+                        column: x => x.CoverageAvailabilityTypeId,
+                        principalSchema: "products",
+                        principalTable: "CoverageAvailabilityTypes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_CoverageAvailabilities_CoverageLevels_CoverageLevelId",
+                        column: x => x.CoverageLevelId,
+                        principalSchema: "products",
+                        principalTable: "CoverageLevels",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_CoverageAvailabilities_CoverageTypes_CoverageTypeId",
+                        column: x => x.CoverageTypeId,
+                        principalSchema: "products",
+                        principalTable: "CoverageTypes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_CoverageAvailabilities_Products_ProductId",
+                        column: x => x.ProductId,
+                        principalSchema: "products",
+                        principalTable: "Products",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CoverageAvailabilities_CoverageAvailabilityTypeId",
+                schema: "products",
+                table: "CoverageAvailabilities",
+                column: "CoverageAvailabilityTypeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CoverageAvailabilities_CoverageLevelId",
+                schema: "products",
+                table: "CoverageAvailabilities",
+                column: "CoverageLevelId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CoverageAvailabilities_CoverageTypeId",
+                schema: "products",
+                table: "CoverageAvailabilities",
+                column: "CoverageTypeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CoverageAvailabilities_ProductCoverages",
+                schema: "products",
+                table: "CoverageAvailabilities",
+                columns: new[] { "ProductId", "CoverageAvailabilityTypeId", "CoverageTypeId", "CoverageLevelId" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_CoverageAvailabilityTypes_Code",
@@ -190,6 +301,26 @@ namespace InsuranceProducts.Tests.Migrations
                 table: "Products",
                 column: "Code",
                 unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_UnitCategories_Code",
+                schema: "products",
+                table: "UnitCategories",
+                column: "Code",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Units_UnitCategoryId",
+                schema: "products",
+                table: "Units",
+                column: "UnitCategoryId");
+
+            migrationBuilder.CreateIndex(
+                    name: "IX_Units_UnitCategoryId_Code",
+                    schema: "products",
+                    table: "Units",
+                    columns: new[] { "UnitCategoryId", "Code" },
+                    unique: true);
         }
 
         /// <inheritdoc />
@@ -200,7 +331,19 @@ namespace InsuranceProducts.Tests.Migrations
                 schema: "products");
 
             migrationBuilder.DropTable(
+                name: "CoverageAvailabilities",
+                schema: "products");
+
+            migrationBuilder.DropTable(
+                name: "Units",
+                schema: "products");
+
+            migrationBuilder.DropTable(
                 name: "CoverageAvailabilityTypes",
+                schema: "products");
+
+            migrationBuilder.DropTable(
+                name: "CoverageLevels",
                 schema: "products");
 
             migrationBuilder.DropTable(
@@ -212,7 +355,7 @@ namespace InsuranceProducts.Tests.Migrations
                 schema: "products");
 
             migrationBuilder.DropTable(
-                name: "CoverageLevels",
+                name: "UnitCategories",
                 schema: "products");
 
             migrationBuilder.DropTable(

@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace InsuranceProducts.Tests.Migrations
 {
     [DbContext(typeof(ProductsDbContext))]
-    [Migration("20251008050953_covAvaila")]
-    partial class covAvaila
+    [Migration("20251008084519_initUnits2")]
+    partial class initUnits2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -115,11 +115,16 @@ namespace InsuranceProducts.Tests.Migrations
                     b.Property<DateTime?>("LastModifiedDateUtc")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<Guid>("UnitId")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CoverageBasisId");
 
                     b.HasIndex("CoverageLevelTypeId");
+
+                    b.HasIndex("UnitId");
 
                     b.ToTable("CoverageLevels", "products");
 
@@ -177,6 +182,45 @@ namespace InsuranceProducts.Tests.Migrations
                     b.ToTable("Products", "products");
                 });
 
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.Unit", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("LastModifiedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UnitCategoryId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UnitCategoryId");
+
+                    b.ToTable("Units", "products");
+                });
+
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.UnitCategory", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("LastModifiedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("UnitCategories", "products");
+                });
+
             modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageAmount", b =>
                 {
                     b.HasBaseType("InsuranceProducts.Tests.Domain.Products.Entities.CoverageLevel");
@@ -208,7 +252,7 @@ namespace InsuranceProducts.Tests.Migrations
                         .IsRequired();
 
                     b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.Product", "Product")
-                        .WithMany()
+                        .WithMany("CoverageAvailabilities")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -336,9 +380,17 @@ namespace InsuranceProducts.Tests.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.Unit", "Unit")
+                        .WithMany()
+                        .HasForeignKey("UnitId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("CoverageBasis");
 
                     b.Navigation("CoverageLevelType");
+
+                    b.Navigation("Unit");
                 });
 
             modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageLevelType", b =>
@@ -491,6 +543,130 @@ namespace InsuranceProducts.Tests.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.Unit", b =>
+                {
+                    b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.UnitCategory", "UnitCategory")
+                        .WithMany()
+                        .HasForeignKey("UnitCategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("InsuranceProducts.Tests.Domain.Products.ValueObjects.Code", "Code", b1 =>
+                        {
+                            b1.Property<Guid>("UnitId")
+                                .HasColumnType("uuid");
+
+                            b1.Property<string>("Value")
+                                .IsRequired()
+                                .HasMaxLength(20)
+                                .HasColumnType("character varying(20)")
+                                .HasColumnName("Code");
+
+                            b1.HasKey("UnitId");
+
+                            b1.ToTable("Units", "products");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UnitId");
+                        });
+
+                    b.OwnsOne("InsuranceProducts.Tests.Domain.Products.ValueObjects.Description", "Description", b1 =>
+                        {
+                            b1.Property<Guid>("UnitId")
+                                .HasColumnType("uuid");
+
+                            b1.Property<string>("Value")
+                                .HasMaxLength(2000)
+                                .HasColumnType("character varying(2000)")
+                                .HasColumnName("Description");
+
+                            b1.HasKey("UnitId");
+
+                            b1.ToTable("Units", "products");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UnitId");
+                        });
+
+                    b.OwnsOne("InsuranceProducts.Tests.Domain.Products.ValueObjects.Symbol", "Symbol", b1 =>
+                        {
+                            b1.Property<Guid>("UnitId")
+                                .HasColumnType("uuid");
+
+                            b1.Property<string>("Value")
+                                .HasMaxLength(5)
+                                .HasColumnType("character varying(5)")
+                                .HasColumnName("Symbol");
+
+                            b1.HasKey("UnitId");
+
+                            b1.ToTable("Units", "products");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UnitId");
+                        });
+
+                    b.Navigation("Code")
+                        .IsRequired();
+
+                    b.Navigation("Description")
+                        .IsRequired();
+
+                    b.Navigation("Symbol");
+
+                    b.Navigation("UnitCategory");
+                });
+
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.UnitCategory", b =>
+                {
+                    b.OwnsOne("InsuranceProducts.Tests.Domain.Products.ValueObjects.Code", "Code", b1 =>
+                        {
+                            b1.Property<Guid>("UnitCategoryId")
+                                .HasColumnType("uuid");
+
+                            b1.Property<string>("Value")
+                                .IsRequired()
+                                .HasMaxLength(20)
+                                .HasColumnType("character varying(20)")
+                                .HasColumnName("Code");
+
+                            b1.HasKey("UnitCategoryId");
+
+                            b1.HasIndex("Value")
+                                .IsUnique()
+                                .HasDatabaseName("IX_UnitCategories_Code");
+
+                            b1.ToTable("UnitCategories", "products");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UnitCategoryId");
+                        });
+
+                    b.OwnsOne("InsuranceProducts.Tests.Domain.Products.ValueObjects.Description", "Description", b1 =>
+                        {
+                            b1.Property<Guid>("UnitCategoryId")
+                                .HasColumnType("uuid");
+
+                            b1.Property<string>("Value")
+                                .HasMaxLength(2000)
+                                .HasColumnType("character varying(2000)")
+                                .HasColumnName("Description");
+
+                            b1.HasKey("UnitCategoryId");
+
+                            b1.ToTable("UnitCategories", "products");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UnitCategoryId");
+                        });
+
+                    b.Navigation("Code")
+                        .IsRequired();
+
+                    b.Navigation("Description")
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageAmount", b =>
                 {
                     b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.CoverageLevel", null)
@@ -498,6 +674,11 @@ namespace InsuranceProducts.Tests.Migrations
                         .HasForeignKey("InsuranceProducts.Tests.Domain.Products.Entities.CoverageAmount", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.Product", b =>
+                {
+                    b.Navigation("CoverageAvailabilities");
                 });
 #pragma warning restore 612, 618
         }

@@ -13,7 +13,8 @@ namespace InsuranceProducts.Tests.Domain.Products.Entities
         public CoverageAmount(Guid id,
             CoverageLevelType type,
             CoverageBasis basis,
-            decimal amount) : base(id, type, basis)
+            Unit unit,
+            decimal amount) : base(id, type, basis, unit)
         {
             Amount = amount;
         }

@@ -27,19 +27,6 @@ namespace InsuranceProducts.Tests.Domain.Products.Entities
             Description = Description.Create(description);
         }
 
-        public static CoverageLevelType Create(
-            Guid id,
-            Code code,
-            string description)
-        {
-            var coverageType = new CoverageLevelType(id, code);
-            if (!string.IsNullOrWhiteSpace(description))
-            {
-                coverageType.UpdateDescription(description);
-            }
-            return coverageType;
-        }
-
         public static Builder CreateBuilder(Guid id,
             Code code) => new Builder(id, code);
 
