@@ -12,6 +12,13 @@ namespace InsuranceProducts.Tests.Infrastructure.Persistence
         {
         }
 
+        // Products
+        public DbSet<Product> Products { get; set; }
+
+        // Coverage availability
+        public DbSet<CoverageAvailabilityType> CoverageAvailabilityTypes { get; set; }
+        public DbSet<CoverageAvailability> CoverageAvailabilities { get; set; }
+
         // Coverages
         public DbSet<CoverageType> CoverageTypes { get; set; }
         public DbSet<CoverageLevelType> CoverageLevelTypes { get; set; }
@@ -23,7 +30,13 @@ namespace InsuranceProducts.Tests.Infrastructure.Persistence
             base.OnModelCreating(modelBuilder);
 
             // Apply configurations for all entities
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
+
+            modelBuilder.ApplyConfiguration(new CoverageAvailabilityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new CoverageAvailabilityConfiguration());
+
             modelBuilder.ApplyConfiguration(new CoverageTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new CoverageLevelConfiguration());
             modelBuilder.ApplyConfiguration(new CoverageLevelTypeConfiguration());
             modelBuilder.ApplyConfiguration(new CoverageBasisConfiguration());
 
@@ -36,13 +49,23 @@ namespace InsuranceProducts.Tests.Infrastructure.Persistence
 
         private static void ConfigureSchemas(ModelBuilder modelBuilder)
         {
-            // Coverages schema
-            modelBuilder.Entity<CoverageType>().ToTable("CoverageTypes", "products");
-            modelBuilder.Entity<CoverageLevelType>().ToTable("CoverageLevelTypes", "products");
-            modelBuilder.Entity<CoverageBasis>().ToTable("CoverageBasises", "products");
+            var productsSchemas = "products";
 
-            modelBuilder.Entity<CoverageLevel>().ToTable("CoverageLevels", "products");
-            modelBuilder.Entity<CoverageAmount>().ToTable("CoverageAmounts", "products");
+            // Products schema
+            modelBuilder.Entity<Product>().ToTable("Products", productsSchemas);
+
+            // Coverages schema
+            modelBuilder.Entity<CoverageType>().ToTable("CoverageTypes", productsSchemas);
+
+            modelBuilder.Entity<CoverageLevelType>().ToTable("CoverageLevelTypes", productsSchemas);
+            modelBuilder.Entity<CoverageBasis>().ToTable("CoverageBasises", productsSchemas);
+            modelBuilder.Entity<CoverageLevel>().ToTable("CoverageLevels", productsSchemas);
+            modelBuilder.Entity<CoverageAmount>().ToTable("CoverageAmounts", productsSchemas);
+
+            // Product Coverage Availabilities schema
+            modelBuilder.Entity<CoverageAvailabilityType>().ToTable("CoverageAvailabilityTypes", productsSchemas);
+            modelBuilder.Entity<CoverageAvailability>().ToTable("CoverageAvailabilities", productsSchemas);
+
         }
 
         private static void ConfigureConventions(ModelBuilder modelBuilder)

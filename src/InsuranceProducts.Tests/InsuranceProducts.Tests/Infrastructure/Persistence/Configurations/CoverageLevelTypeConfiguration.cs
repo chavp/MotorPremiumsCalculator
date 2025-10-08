@@ -8,7 +8,7 @@ using System.Text;
 
 namespace InsuranceProducts.Tests.Infrastructure.Persistence.Configurations;
 
-public class CoverageLevelTypeConfiguration : IEntityTypeConfiguration<CoverageLevelType>
+internal sealed class CoverageLevelTypeConfiguration : IEntityTypeConfiguration<CoverageLevelType>
 {
     public void Configure(EntityTypeBuilder<CoverageLevelType> builder)
     {

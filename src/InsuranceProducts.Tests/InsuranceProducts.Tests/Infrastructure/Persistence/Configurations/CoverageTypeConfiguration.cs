@@ -6,48 +6,47 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace InsuranceProducts.Tests.Infrastructure.Persistence.Configurations
+namespace InsuranceProducts.Tests.Infrastructure.Persistence.Configurations;
+
+internal sealed class CoverageTypeConfiguration : IEntityTypeConfiguration<CoverageType>
 {
-    public class CoverageTypeConfiguration : IEntityTypeConfiguration<CoverageType>
+    public void Configure(EntityTypeBuilder<CoverageType> builder)
     {
-        public void Configure(EntityTypeBuilder<CoverageType> builder)
+        builder.HasKey(cov => cov.Id);
+
+        // Configure Id as value object
+        //builder.Property(cov => cov.Id)
+        //    .HasConversion(
+        //        id => id.Value,
+        //        value => CoverageTypeId.From(value))
+        //    .ValueGeneratedNever();
+
+        // Configure Code value object
+        builder.OwnsOne(cov => cov.Code, codeBuilder =>
         {
-            builder.HasKey(cov => cov.Id);
+            codeBuilder.WithOwner();
 
-            // Configure Id as value object
-            //builder.Property(cov => cov.Id)
-            //    .HasConversion(
-            //        id => id.Value,
-            //        value => CoverageTypeId.From(value))
-            //    .ValueGeneratedNever();
+            codeBuilder.Property(code => code.Value)
+                .HasColumnName(nameof(CoverageType.Code))
+                .HasConversion(ValueConverters.UpperConverter)
+                .HasMaxLength(Code.MaxLength)
+                .IsRequired();
 
-            // Configure Code value object
-            builder.OwnsOne(cov => cov.Code, codeBuilder =>
-            {
-                codeBuilder.WithOwner();
+            // Add index for title searches
+            codeBuilder.HasIndex(code => code.Value)
+                .HasDatabaseName("IX_CoverageTypes_Code")
+                .IsUnique();
+        });
 
-                codeBuilder.Property(code => code.Value)
-                    .HasColumnName(nameof(CoverageType.Code))
-                    .HasConversion(ValueConverters.UpperConverter)
-                    .HasMaxLength(Code.MaxLength)
-                    .IsRequired();
+        // Configure Description value object
+        builder.OwnsOne(pbi => pbi.Description, descBuilder =>
+        {
+            descBuilder.WithOwner();
 
-                // Add index for title searches
-                codeBuilder.HasIndex(code => code.Value)
-                    .HasDatabaseName("IX_CoverageTypes_Code")
-                    .IsUnique();
-            });
-
-            // Configure Description value object
-            builder.OwnsOne(pbi => pbi.Description, descBuilder =>
-            {
-                descBuilder.WithOwner();
-
-                descBuilder.Property(d => d.Value)
-                    .HasColumnName(nameof(CoverageType.Description))
-                    .HasMaxLength(Description.MaxLength)
-                    .IsRequired(false);
-            });
-        }
+            descBuilder.Property(d => d.Value)
+                .HasColumnName(nameof(CoverageType.Description))
+                .HasMaxLength(Description.MaxLength)
+                .IsRequired(false);
+        });
     }
 }

@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace InsuranceProducts.Tests.Migrations
 {
     [DbContext(typeof(ProductsDbContext))]
-    [Migration("20251007095003_iniPrds1")]
-    partial class iniPrds1
+    [Migration("20251008050953_covAvaila")]
+    partial class covAvaila
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,61 @@ namespace InsuranceProducts.Tests.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageAvailability", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("CoverageAvailabilityTypeId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("CoverageLevelId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("CoverageTypeId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("LastModifiedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CoverageAvailabilityTypeId");
+
+                    b.HasIndex("CoverageLevelId");
+
+                    b.HasIndex("CoverageTypeId");
+
+                    b.HasIndex("ProductId", "CoverageAvailabilityTypeId", "CoverageTypeId", "CoverageLevelId")
+                        .HasDatabaseName("IX_CoverageAvailabilities_ProductCoverages");
+
+                    b.ToTable("CoverageAvailabilities", "products");
+                });
+
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageAvailabilityType", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("LastModifiedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CoverageAvailabilityTypes", "products");
+                });
 
             modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageBasis", b =>
                 {
@@ -48,10 +103,10 @@ namespace InsuranceProducts.Tests.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<Guid?>("CoverageBasisId")
+                    b.Property<Guid>("CoverageBasisId")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid?>("CoverageTypeId")
+                    b.Property<Guid>("CoverageLevelTypeId")
                         .HasColumnType("uuid");
 
                     b.Property<DateTime>("CreatedDateUtc")
@@ -64,7 +119,7 @@ namespace InsuranceProducts.Tests.Migrations
 
                     b.HasIndex("CoverageBasisId");
 
-                    b.HasIndex("CoverageTypeId");
+                    b.HasIndex("CoverageLevelTypeId");
 
                     b.ToTable("CoverageLevels", "products");
 
@@ -105,6 +160,23 @@ namespace InsuranceProducts.Tests.Migrations
                     b.ToTable("CoverageTypes", "products");
                 });
 
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.Product", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("LastModifiedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Products", "products");
+                });
+
             modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageAmount", b =>
                 {
                     b.HasBaseType("InsuranceProducts.Tests.Domain.Products.Entities.CoverageLevel");
@@ -113,6 +185,91 @@ namespace InsuranceProducts.Tests.Migrations
                         .HasColumnType("numeric");
 
                     b.ToTable("CoverageAmounts", "products");
+                });
+
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageAvailability", b =>
+                {
+                    b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.CoverageAvailabilityType", "CoverageAvailabilityType")
+                        .WithMany()
+                        .HasForeignKey("CoverageAvailabilityTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.CoverageLevel", "CoverageLevel")
+                        .WithMany()
+                        .HasForeignKey("CoverageLevelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.CoverageType", "CoverageType")
+                        .WithMany()
+                        .HasForeignKey("CoverageTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CoverageAvailabilityType");
+
+                    b.Navigation("CoverageLevel");
+
+                    b.Navigation("CoverageType");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageAvailabilityType", b =>
+                {
+                    b.OwnsOne("InsuranceProducts.Tests.Domain.Products.ValueObjects.Code", "Code", b1 =>
+                        {
+                            b1.Property<Guid>("CoverageAvailabilityTypeId")
+                                .HasColumnType("uuid");
+
+                            b1.Property<string>("Value")
+                                .IsRequired()
+                                .HasMaxLength(20)
+                                .HasColumnType("character varying(20)")
+                                .HasColumnName("Code");
+
+                            b1.HasKey("CoverageAvailabilityTypeId");
+
+                            b1.HasIndex("Value")
+                                .IsUnique()
+                                .HasDatabaseName("IX_CoverageAvailabilityTypes_Code");
+
+                            b1.ToTable("CoverageAvailabilityTypes", "products");
+
+                            b1.WithOwner()
+                                .HasForeignKey("CoverageAvailabilityTypeId");
+                        });
+
+                    b.OwnsOne("InsuranceProducts.Tests.Domain.Products.ValueObjects.Description", "Description", b1 =>
+                        {
+                            b1.Property<Guid>("CoverageAvailabilityTypeId")
+                                .HasColumnType("uuid");
+
+                            b1.Property<string>("Value")
+                                .HasMaxLength(2000)
+                                .HasColumnType("character varying(2000)")
+                                .HasColumnName("Description");
+
+                            b1.HasKey("CoverageAvailabilityTypeId");
+
+                            b1.ToTable("CoverageAvailabilityTypes", "products");
+
+                            b1.WithOwner()
+                                .HasForeignKey("CoverageAvailabilityTypeId");
+                        });
+
+                    b.Navigation("Code")
+                        .IsRequired();
+
+                    b.Navigation("Description")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageBasis", b =>
@@ -169,15 +326,19 @@ namespace InsuranceProducts.Tests.Migrations
                 {
                     b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.CoverageBasis", "CoverageBasis")
                         .WithMany()
-                        .HasForeignKey("CoverageBasisId");
+                        .HasForeignKey("CoverageBasisId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.CoverageLevelType", "CoverageType")
+                    b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.CoverageLevelType", "CoverageLevelType")
                         .WithMany()
-                        .HasForeignKey("CoverageTypeId");
+                        .HasForeignKey("CoverageLevelTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("CoverageBasis");
 
-                    b.Navigation("CoverageType");
+                    b.Navigation("CoverageLevelType");
                 });
 
             modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageLevelType", b =>
@@ -271,6 +432,56 @@ namespace InsuranceProducts.Tests.Migrations
 
                             b1.WithOwner()
                                 .HasForeignKey("CoverageTypeId");
+                        });
+
+                    b.Navigation("Code")
+                        .IsRequired();
+
+                    b.Navigation("Description")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.Product", b =>
+                {
+                    b.OwnsOne("InsuranceProducts.Tests.Domain.Products.ValueObjects.Code", "Code", b1 =>
+                        {
+                            b1.Property<Guid>("ProductId")
+                                .HasColumnType("uuid");
+
+                            b1.Property<string>("Value")
+                                .IsRequired()
+                                .HasMaxLength(20)
+                                .HasColumnType("character varying(20)")
+                                .HasColumnName("Code");
+
+                            b1.HasKey("ProductId");
+
+                            b1.HasIndex("Value")
+                                .IsUnique()
+                                .HasDatabaseName("IX_Products_Code");
+
+                            b1.ToTable("Products", "products");
+
+                            b1.WithOwner()
+                                .HasForeignKey("ProductId");
+                        });
+
+                    b.OwnsOne("InsuranceProducts.Tests.Domain.Products.ValueObjects.Description", "Description", b1 =>
+                        {
+                            b1.Property<Guid>("ProductId")
+                                .HasColumnType("uuid");
+
+                            b1.Property<string>("Value")
+                                .HasMaxLength(2000)
+                                .HasColumnType("character varying(2000)")
+                                .HasColumnName("Description");
+
+                            b1.HasKey("ProductId");
+
+                            b1.ToTable("Products", "products");
+
+                            b1.WithOwner()
+                                .HasForeignKey("ProductId");
                         });
 
                     b.Navigation("Code")

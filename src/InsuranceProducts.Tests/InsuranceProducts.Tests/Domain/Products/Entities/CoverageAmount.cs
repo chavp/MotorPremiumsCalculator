@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InsuranceProducts.Tests.Domain.Products.Entities
 {
-    public class CoverageAmount : CoverageLevel
+    public sealed class CoverageAmount : CoverageLevel
     {
         public decimal Amount { get; private set; }
 

@@ -6,17 +6,15 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace InsuranceProducts.Tests.Domain.Products.Entities;
 
-public class CoverageType : Entity<Guid>
+public sealed class CoverageType : Entity<Guid>
 {
     public Code Code { get; protected set; }
     public Description Description { get; protected set; }
 
-    protected CoverageType(
-        Guid id,
-        Code code) : base(id)
+    protected CoverageType(Builder builder) : base(builder.Id)
     {
-        Id = Ensure.That(id).NotEmpty("Id is not empty", nameof(id));
-        Code = Ensure.That(code).NotEmpty("Code is not empty", nameof(code));
+        Id = builder.Id;
+        Code = builder.Code;
     }
 
     protected CoverageType() : base()
@@ -29,35 +27,13 @@ public class CoverageType : Entity<Guid>
         Description = Description.Create(description);
     }
 
-    public static CoverageType Create(
-        Guid id,
-        Code code,
-        CoverageLevel level,
-        string description)
-    {
-        var coverageType = new CoverageType(id, code);
-        if (!string.IsNullOrWhiteSpace(description))
-        {
-            coverageType.UpdateDescription(description);
-        }
-        return coverageType;
-    }
-
-    public static Builder CreateBuilder(Guid id,
-        Code code, CoverageLevel level) => new Builder(id, code, level);
+    public static Builder CreateBuilder(Guid id,Code code) => new Builder(id, code);
 
     public sealed class Builder
     {
         internal Guid Id { get; set; } = default!;
         internal Code Code { get; set; } = default!;
-        internal CoverageLevel CoverageLevel { get; set; } = default!;
         internal Description Description { get; set; } = default!;
-
-        public Builder WithCode(Code code)
-        {
-            Code = code;
-            return this;
-        }
 
         public Builder WithDescription(string description)
         {
@@ -65,16 +41,15 @@ public class CoverageType : Entity<Guid>
             return this;
         }
 
-        public Builder(Guid id, Code code, CoverageLevel level)
+        internal Builder(Guid id, Code code)
         {
             Id = Ensure.That(id).NotEmpty("Id is not empty", nameof(id));
             Code = Ensure.That(code).NotEmpty("Code is not empty", nameof(code));
-            CoverageLevel = level;
         }
 
         public CoverageType Build()
         {
-            var newCoverageType = new CoverageType(Id, Code);
+            var newCoverageType = new CoverageType(this);
             if (Description != null && !Description.IsEmpty)
             {
                 newCoverageType.UpdateDescription(Description);
