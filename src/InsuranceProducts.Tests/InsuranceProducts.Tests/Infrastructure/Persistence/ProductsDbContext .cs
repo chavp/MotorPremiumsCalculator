@@ -72,6 +72,8 @@ namespace InsuranceProducts.Tests.Infrastructure.Persistence
             modelBuilder.Entity<CoverageBasis>().ToTable("CoverageBasises", productsSchemas);
             modelBuilder.Entity<CoverageLevel>().ToTable("CoverageLevels", productsSchemas);
             modelBuilder.Entity<CoverageAmount>().ToTable("CoverageAmounts", productsSchemas);
+            modelBuilder.Entity<CoverageRange>().ToTable("CoverageRanges", productsSchemas);
+            modelBuilder.Entity<CoverageLimit>().ToTable("CoverageLimits", productsSchemas);
 
             // Product Coverage Availabilities schema
             modelBuilder.Entity<CoverageAvailabilityType>().ToTable("CoverageAvailabilityTypes", productsSchemas);
