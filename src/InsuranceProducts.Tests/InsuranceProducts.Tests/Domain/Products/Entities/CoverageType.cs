@@ -1,8 +1,6 @@
 ﻿using EnsureThat;
 using InsuranceProducts.Tests.Domain.Products.ValueObjects;
 using InsuranceProducts.Tests.Domain.SharedKernel;
-using System.Globalization;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace InsuranceProducts.Tests.Domain.Products.Entities;
 
@@ -11,13 +9,16 @@ public sealed class CoverageType : Entity<Guid>
     public Code Code { get; protected set; }
     public Description Description { get; protected set; }
 
+    public IReadOnlyList<CoverageTypeComposition> FromCompositions { get; }
+    public IReadOnlyList<CoverageTypeComposition> ToCompositions { get; }
+
     protected CoverageType(Builder builder) : base(builder.Id)
     {
         Id = builder.Id;
         Code = builder.Code;
     }
 
-    protected CoverageType() : base()
+    public CoverageType() : base()
     {
         Code = default!;
     }
@@ -27,7 +28,7 @@ public sealed class CoverageType : Entity<Guid>
         Description = Description.Create(description);
     }
 
-    public static Builder CreateBuilder(Guid id,Code code) => new Builder(id, code);
+    public static Builder CreateBuilder(Code code) => new Builder(Guid.NewGuid(), code);
 
     public sealed class Builder
     {

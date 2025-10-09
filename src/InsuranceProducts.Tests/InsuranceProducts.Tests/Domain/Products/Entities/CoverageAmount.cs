@@ -10,13 +10,18 @@ namespace InsuranceProducts.Tests.Domain.Products.Entities
 
         protected CoverageAmount() { }
 
-        public CoverageAmount(Guid id,
-            CoverageLevelType type,
-            CoverageBasis basis,
-            Unit unit,
-            decimal amount) : base(id, type, basis, unit)
+        public CoverageAmount SetAmount(decimal amount) 
         {
             Amount = amount;
+            return this;
+        }
+
+        protected internal CoverageAmount(Guid id,
+            CoverageLevelType type,
+            CoverageBasis basis,
+            Unit unit) : base(id, type, basis, unit)
+        {
+            
         }
     }
 }

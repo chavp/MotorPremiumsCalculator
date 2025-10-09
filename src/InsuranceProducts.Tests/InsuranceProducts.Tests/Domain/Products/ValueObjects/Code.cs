@@ -9,7 +9,7 @@ namespace InsuranceProducts.Tests.Domain.Products.ValueObjects
 {
     public sealed class Code : ValueObject
     {
-        public const int MaxLength = 20;
+        public const int MaxLength = 50;
 
         public string Value { get; }
 

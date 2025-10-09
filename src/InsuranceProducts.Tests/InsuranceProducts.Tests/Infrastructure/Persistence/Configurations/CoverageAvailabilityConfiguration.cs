@@ -7,7 +7,8 @@ using System.Text;
 
 namespace InsuranceProducts.Tests.Infrastructure.Persistence.Configurations;
 
-internal class CoverageAvailabilityConfiguration : IEntityTypeConfiguration<CoverageAvailability>
+internal sealed class CoverageAvailabilityConfiguration 
+    : IEntityTypeConfiguration<CoverageAvailability>
 {
     public void Configure(EntityTypeBuilder<CoverageAvailability> builder)
     {
@@ -35,6 +36,10 @@ internal class CoverageAvailabilityConfiguration : IEntityTypeConfiguration<Cove
             .IsRequired();
 
         // Configure indexes
+        builder.HasIndex(ca => ca.CoverageLevelId)
+        .HasDatabaseName("IX_CoverageAvailabilities_CoverageLevelId")
+        .IsUnique();
+
         builder.HasIndex(ca => new { 
             ca.ProductId, 
             ca.CoverageAvailabilityTypeId,

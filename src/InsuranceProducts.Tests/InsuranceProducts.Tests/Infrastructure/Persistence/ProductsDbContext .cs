@@ -25,6 +25,7 @@ namespace InsuranceProducts.Tests.Infrastructure.Persistence
         public DbSet<CoverageLevelType> CoverageLevelTypes { get; set; }
         public DbSet<CoverageBasis> CoverageBasises { get; set; }
         public DbSet<CoverageLevel> CoverageLevels { get; set; }
+        public DbSet<CoverageTypeComposition> CoverageTypeCompositions { get; set; }
 
         // Units
         public DbSet<UnitCategory> UnitCategories { get; set; }
@@ -67,6 +68,7 @@ namespace InsuranceProducts.Tests.Infrastructure.Persistence
 
             // Coverages schema
             modelBuilder.Entity<CoverageType>().ToTable("CoverageTypes", productsSchemas);
+            modelBuilder.Entity<CoverageTypeComposition>().ToTable("CoverageTypeCompositions", productsSchemas);
 
             modelBuilder.Entity<CoverageLevelType>().ToTable("CoverageLevelTypes", productsSchemas);
             modelBuilder.Entity<CoverageBasis>().ToTable("CoverageBasises", productsSchemas);

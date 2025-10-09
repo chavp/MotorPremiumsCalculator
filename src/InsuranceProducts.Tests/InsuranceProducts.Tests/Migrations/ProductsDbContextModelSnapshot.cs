@@ -50,7 +50,9 @@ namespace InsuranceProducts.Tests.Migrations
 
                     b.HasIndex("CoverageAvailabilityTypeId");
 
-                    b.HasIndex("CoverageLevelId");
+                    b.HasIndex("CoverageLevelId")
+                        .IsUnique()
+                        .HasDatabaseName("IX_CoverageAvailabilities_CoverageLevelId");
 
                     b.HasIndex("CoverageTypeId");
 
@@ -162,6 +164,35 @@ namespace InsuranceProducts.Tests.Migrations
                     b.ToTable("CoverageTypes", "products");
                 });
 
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageTypeComposition", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("FromCoverageTypeId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime?>("LastModifiedDateUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("ToCoverageTypeId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ToCoverageTypeId");
+
+                    b.HasIndex("FromCoverageTypeId", "ToCoverageTypeId")
+                        .IsUnique()
+                        .HasDatabaseName("IX_CoverageTypeCompositions_FromToCoverageTypeId");
+
+                    b.ToTable("CoverageTypeCompositions", "products");
+                });
+
             modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.Product", b =>
                 {
                     b.Property<Guid>("Id")
@@ -242,10 +273,10 @@ namespace InsuranceProducts.Tests.Migrations
                 {
                     b.HasBaseType("InsuranceProducts.Tests.Domain.Products.Entities.CoverageLevel");
 
-                    b.Property<decimal>("LimitFrom")
+                    b.Property<decimal>("MaximumAmount")
                         .HasColumnType("numeric");
 
-                    b.Property<decimal>("LimitTo")
+                    b.Property<decimal>("MinimumAmount")
                         .HasColumnType("numeric");
 
                     b.ToTable("CoverageRanges", "products");
@@ -295,8 +326,8 @@ namespace InsuranceProducts.Tests.Migrations
 
                             b1.Property<string>("Value")
                                 .IsRequired()
-                                .HasMaxLength(20)
-                                .HasColumnType("character varying(20)")
+                                .HasMaxLength(50)
+                                .HasColumnType("character varying(50)")
                                 .HasColumnName("Code");
 
                             b1.HasKey("CoverageAvailabilityTypeId");
@@ -345,8 +376,8 @@ namespace InsuranceProducts.Tests.Migrations
 
                             b1.Property<string>("Value")
                                 .IsRequired()
-                                .HasMaxLength(20)
-                                .HasColumnType("character varying(20)")
+                                .HasMaxLength(50)
+                                .HasColumnType("character varying(50)")
                                 .HasColumnName("Code");
 
                             b1.HasKey("CoverageBasisId");
@@ -422,8 +453,8 @@ namespace InsuranceProducts.Tests.Migrations
 
                             b1.Property<string>("Value")
                                 .IsRequired()
-                                .HasMaxLength(20)
-                                .HasColumnType("character varying(20)")
+                                .HasMaxLength(50)
+                                .HasColumnType("character varying(50)")
                                 .HasColumnName("Code");
 
                             b1.HasKey("CoverageLevelTypeId");
@@ -472,8 +503,8 @@ namespace InsuranceProducts.Tests.Migrations
 
                             b1.Property<string>("Value")
                                 .IsRequired()
-                                .HasMaxLength(20)
-                                .HasColumnType("character varying(20)")
+                                .HasMaxLength(50)
+                                .HasColumnType("character varying(50)")
                                 .HasColumnName("Code");
 
                             b1.HasKey("CoverageTypeId");
@@ -513,6 +544,25 @@ namespace InsuranceProducts.Tests.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageTypeComposition", b =>
+                {
+                    b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.CoverageType", "FromCoverageType")
+                        .WithMany("FromCompositions")
+                        .HasForeignKey("FromCoverageTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("InsuranceProducts.Tests.Domain.Products.Entities.CoverageType", "ToCoverageType")
+                        .WithMany("ToCompositions")
+                        .HasForeignKey("ToCoverageTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("FromCoverageType");
+
+                    b.Navigation("ToCoverageType");
+                });
+
             modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.Product", b =>
                 {
                     b.OwnsOne("InsuranceProducts.Tests.Domain.Products.ValueObjects.Code", "Code", b1 =>
@@ -522,8 +572,8 @@ namespace InsuranceProducts.Tests.Migrations
 
                             b1.Property<string>("Value")
                                 .IsRequired()
-                                .HasMaxLength(20)
-                                .HasColumnType("character varying(20)")
+                                .HasMaxLength(50)
+                                .HasColumnType("character varying(50)")
                                 .HasColumnName("Code");
 
                             b1.HasKey("ProductId");
@@ -578,8 +628,8 @@ namespace InsuranceProducts.Tests.Migrations
 
                             b1.Property<string>("Value")
                                 .IsRequired()
-                                .HasMaxLength(20)
-                                .HasColumnType("character varying(20)")
+                                .HasMaxLength(50)
+                                .HasColumnType("character varying(50)")
                                 .HasColumnName("Code");
 
                             b1.HasKey("UnitId");
@@ -646,8 +696,8 @@ namespace InsuranceProducts.Tests.Migrations
 
                             b1.Property<string>("Value")
                                 .IsRequired()
-                                .HasMaxLength(20)
-                                .HasColumnType("character varying(20)")
+                                .HasMaxLength(50)
+                                .HasColumnType("character varying(50)")
                                 .HasColumnName("Code");
 
                             b1.HasKey("UnitCategoryId");
@@ -712,6 +762,13 @@ namespace InsuranceProducts.Tests.Migrations
                         .HasForeignKey("InsuranceProducts.Tests.Domain.Products.Entities.CoverageRange", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.CoverageType", b =>
+                {
+                    b.Navigation("FromCompositions");
+
+                    b.Navigation("ToCompositions");
                 });
 
             modelBuilder.Entity("InsuranceProducts.Tests.Domain.Products.Entities.Product", b =>
