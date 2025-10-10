@@ -1,6 +1,7 @@
 ﻿using EnsureThat;
 using InsuranceProducts.Tests.Domain.Products.ValueObjects;
 using InsuranceProducts.Tests.Domain.SharedKernel;
+using InsuranceProducts.Tests.Domain.SharedKernel.Primatives;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

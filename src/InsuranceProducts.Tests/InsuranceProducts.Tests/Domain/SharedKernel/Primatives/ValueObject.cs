@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace InsuranceProducts.Tests.Domain.SharedKernel;
+namespace InsuranceProducts.Tests.Domain.SharedKernel.Primatives;
 
 public abstract class ValueObject : IEquatable<ValueObject>
 {

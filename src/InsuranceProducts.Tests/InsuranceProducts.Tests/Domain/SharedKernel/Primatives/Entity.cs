@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace InsuranceProducts.Tests.Domain.SharedKernel;
+namespace InsuranceProducts.Tests.Domain.SharedKernel.Primatives;
 
 /// <summary>
 /// Base class for all entities in the domain.

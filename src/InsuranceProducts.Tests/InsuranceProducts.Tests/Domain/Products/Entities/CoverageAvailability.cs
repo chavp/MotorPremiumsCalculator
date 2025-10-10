@@ -1,5 +1,6 @@
 ﻿using EnsureThat;
 using InsuranceProducts.Tests.Domain.SharedKernel;
+using InsuranceProducts.Tests.Domain.SharedKernel.Primatives;
 using System;
 using System.Collections.Generic;
 using System.Text;

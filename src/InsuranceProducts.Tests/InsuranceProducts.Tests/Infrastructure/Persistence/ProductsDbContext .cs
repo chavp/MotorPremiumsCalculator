@@ -1,5 +1,5 @@
 ﻿using InsuranceProducts.Tests.Domain.Products.Entities;
-using InsuranceProducts.Tests.Domain.SharedKernel;
+using InsuranceProducts.Tests.Domain.SharedKernel.Primatives;
 using InsuranceProducts.Tests.Infrastructure.Persistence.Configurations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
