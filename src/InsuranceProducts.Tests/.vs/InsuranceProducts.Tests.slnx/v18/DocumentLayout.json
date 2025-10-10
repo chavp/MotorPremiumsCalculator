@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\coveragetypetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\coveragetypetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\vehiclepremiumstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|solutionrelative:insuranceproducts.tests\\vehiclepremiumstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7EBF0AD-D05B-1E25-4EB6-70FFC3FE209E}|InsuranceProducts.Tests\\InsuranceProducts.Tests.csproj|c:\\data\\motorpremiumscalculator\\src\\insuranceproducts.tests\\insuranceproducts.tests\\domain\\products\\entities\\coveragetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VehiclePremiumsTests.cs",
+              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\VehiclePremiumsTests.cs",
+              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\VehiclePremiumsTests.cs",
+              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\VehiclePremiumsTests.cs",
+              "RelativeToolTip": "InsuranceProducts.Tests\\VehiclePremiumsTests.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAKMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T08:15:38.247Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -34,8 +47,7 @@
               "RelativeToolTip": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\CoverageType.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAD4vwwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T05:55:25.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T05:55:25.86Z"
             },
             {
               "$type": "Document",
@@ -47,21 +59,7 @@
               "RelativeToolTip": "InsuranceProducts.Tests\\Domain\\Products\\Entities\\Product.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAvwAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T02:27:40.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CoverageTypeTests.cs",
-              "DocumentMoniker": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\CoverageTypeTests.cs",
-              "RelativeDocumentMoniker": "InsuranceProducts.Tests\\CoverageTypeTests.cs",
-              "ToolTip": "C:\\data\\MotorPremiumsCalculator\\src\\InsuranceProducts.Tests\\InsuranceProducts.Tests\\CoverageTypeTests.cs",
-              "RelativeToolTip": "InsuranceProducts.Tests\\CoverageTypeTests.cs",
-              "ViewState": "AgIAAEQBAAAAAAAAAAAMwE0BAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T01:45:19.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T02:27:40.611Z"
             }
           ]
         }
