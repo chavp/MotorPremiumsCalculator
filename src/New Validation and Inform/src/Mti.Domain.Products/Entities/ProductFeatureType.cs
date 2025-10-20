@@ -1,0 +1,55 @@
+﻿using EnsureThat;
+using Mti.Domain.Products.Extensions;
+using Mti.Domain.Products.ValueObjects;
+using Mti.Domain.SharedKernel.Primatives;
+
+namespace Mti.Domain.Products.Entities;
+
+public sealed class ProductFeatureType : Entity<Guid>
+{
+    public const string VehicleVoluntary = "VEHICLE_VOLUNTARY";
+    public const string VehicleCompulsory = "VEHICLE_COMPULSORY";
+    public const string VehicleBrand = "VEHICLE_BRAND";
+    public const string VehicleModel = "VEHICLE_MODEL";
+    public const string VehiclePriceGroup = "VEHICLE_PRICE_GROUP";
+
+    public Code Code { get; private set; }
+    public Description Description { get; private set; }
+
+    protected ProductFeatureType(Builder builder) : base(builder.Id)
+    {
+        Id = builder.Id;
+        Code = builder.Code;
+        Description = builder.Description;
+    }
+
+    protected ProductFeatureType() : base() => Code = default!;
+
+    public void UpdateDescription(string description)
+    {
+        Description = Description.Create(description);
+    }
+
+    public static Builder CreateBuilder(Code code) => new Builder(Guid.NewGuid(), code);
+
+    public sealed class Builder
+    {
+        internal Guid Id { get; private set; } = default!;
+        internal Code Code { get; private set; } = default!;
+        internal Description Description { get; private set; } = default!;
+
+        public Builder WithDescription(string description)
+        {
+            Description = Description.Create(description);
+            return this;
+        }
+
+        public Builder(Guid id, Code code)
+        {
+            Id = Ensure.That(id).NotEmpty("Id is not empty", nameof(id));
+            Code = Ensure.That(code).NotEmpty("Code is not empty", nameof(code));
+        }
+
+        public ProductFeatureType Build() => new ProductFeatureType(this);
+    }
+}
