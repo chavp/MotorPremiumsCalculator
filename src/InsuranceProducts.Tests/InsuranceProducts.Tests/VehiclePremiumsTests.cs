@@ -10,36 +10,36 @@ namespace InsuranceProducts.Tests
         [Fact]
         public void VehicleTypes()
         {
-            var listVehicleType = new List<VehicleType>
+            var listVehicleType = new List<VehicleTypeData>
             {
-                new VehicleType{ Code = "1", Description = "ประเภทรถยนต์นั่ง" },
-                new VehicleType{ Code = "2", Description = "ประเภทรถยนต์โดยสาร" },
-                new VehicleType{ Code = "3", Description = "ประเภทรถยนต์บรรทุก" },
-                new VehicleType{ Code = "4", Description = "ประเภทรถยนต์ลากจูง" },
-                new VehicleType{ Code = "5", Description = "ประเภทรถพ่วง" },
-                new VehicleType{ Code = "6", Description = "ประเภทรถจักรยานยนต์" },
-                new VehicleType{ Code = "7", Description = "ประเภทรถยนต์นั่งรับจ้างสาธารณะ" },
-                new VehicleType{ Code = "8", Description = "ประเภทรถยนต์เบ็ดเตล็ด" },
+                new VehicleTypeData{ Code = "1", Description = "ประเภทรถยนต์นั่ง" },
+                new VehicleTypeData{ Code = "2", Description = "ประเภทรถยนต์โดยสาร" },
+                new VehicleTypeData{ Code = "3", Description = "ประเภทรถยนต์บรรทุก" },
+                new VehicleTypeData{ Code = "4", Description = "ประเภทรถยนต์ลากจูง" },
+                new VehicleTypeData{ Code = "5", Description = "ประเภทรถพ่วง" },
+                new VehicleTypeData{ Code = "6", Description = "ประเภทรถจักรยานยนต์" },
+                new VehicleTypeData{ Code = "7", Description = "ประเภทรถยนต์นั่งรับจ้างสาธารณะ" },
+                new VehicleTypeData{ Code = "8", Description = "ประเภทรถยนต์เบ็ดเตล็ด" },
             };
 
-            var listVehicleUsage = new List<VehicleUsage>
+            var listVehicleUsage = new List<VehicleUsageData>
             {
-                new VehicleUsage{ Code = "10", Description = "ชนิดรถยนต์ส่วนบุคคล" },
-                new VehicleUsage{ Code = "20", Description = "ชนิดรถยนต์ใช้เพื่อการพาณิชย์" },
-                new VehicleUsage{ Code = "30", Description = "ชนิดรถยนต์ใช้รับจ้างสาธารณะ" },
-                new VehicleUsage{ Code = "40", Description = "ชนิดรถยนต์ใช้เพื่อการพาณิชย์พิเศษ" },
+                new VehicleUsageData{ Code = "10", Description = "ชนิดรถยนต์ส่วนบุคคล" },
+                new VehicleUsageData{ Code = "20", Description = "ชนิดรถยนต์ใช้เพื่อการพาณิชย์" },
+                new VehicleUsageData{ Code = "30", Description = "ชนิดรถยนต์ใช้รับจ้างสาธารณะ" },
+                new VehicleUsageData{ Code = "40", Description = "ชนิดรถยนต์ใช้เพื่อการพาณิชย์พิเศษ" },
 
                 // สำหรับประเภทรถยนต์บรรทุกที่ใช้ลากจูง
-                new VehicleUsage{ Code = "27", Description = "ชนิดรถยนต์บรรทุกใช้ลากจูงรถพ่วงเพื่อการพาณิชย์" },
-                new VehicleUsage{ Code = "47", Description = "ชนิดรถยนต์บรรทุกใช้ลากจูงรถพ่วงเพื่อการพาณิชย์พิเศษ" },
+                new VehicleUsageData{ Code = "27", Description = "ชนิดรถยนต์บรรทุกใช้ลากจูงรถพ่วงเพื่อการพาณิชย์" },
+                new VehicleUsageData{ Code = "47", Description = "ชนิดรถยนต์บรรทุกใช้ลากจูงรถพ่วงเพื่อการพาณิชย์พิเศษ" },
 
                 // สำหรับประเภทรถยนต์เบ็ดเตล็ด
-                new VehicleUsage{ Code = "01", Description = "รถยนต์ป้ายแดง" },
-                new VehicleUsage{ Code = "02", Description = "รถพยาบาล" },
-                new VehicleUsage{ Code = "03", Description = "รถดับเพลิง" },
-                new VehicleUsage{ Code = "04", Description = "รถใช้ในการเกษตร" },
-                new VehicleUsage{ Code = "05", Description = "รถใช้ในการก่อสร้าง" },
-                new VehicleUsage{ Code = "06", Description = "รถอื่นๆ" },
+                new VehicleUsageData{ Code = "01", Description = "รถยนต์ป้ายแดง" },
+                new VehicleUsageData{ Code = "02", Description = "รถพยาบาล" },
+                new VehicleUsageData{ Code = "03", Description = "รถดับเพลิง" },
+                new VehicleUsageData{ Code = "04", Description = "รถใช้ในการเกษตร" },
+                new VehicleUsageData{ Code = "05", Description = "รถใช้ในการก่อสร้าง" },
+                new VehicleUsageData{ Code = "06", Description = "รถอื่นๆ" },
             };
 
 
@@ -200,11 +200,11 @@ namespace InsuranceProducts.Tests
             var poType1 = "type_1";
             var poType2 = "type_2";
             var poType3 = "type_3";
-            var basePremims = new List<BasePremiums>
+            var basePremims = new List<BasePremiumsData>
             {
-                new BasePremiums(poType1, 7600, 12000),
-                new BasePremiums(poType2, 3000, 5000),
-                new BasePremiums(poType3, 2200, 3000),
+                new BasePremiumsData(poType1, 7600, 12000),
+                new BasePremiumsData(poType2, 3000, 5000),
+                new BasePremiumsData(poType3, 2200, 3000),
             };
 
             // ตารางที่ 2 อัตราเบี้ยประกันภัยเิ่มตามความเสี่ยงภัย
@@ -212,37 +212,37 @@ namespace InsuranceProducts.Tests
             // - การใช้ส่วนบุคคล
             var personal = "PERSONAL";
             var comercial = "COMERCIAL";
-            var usageRiskPremiums = new List<RiskPremiums>
+            var usageRiskPremiums = new List<RiskPremiumsData>
             {
                 // ประเภท 1
-                new RiskPremiums(poType1, personal, 1),
-                new RiskPremiums(poType1, comercial, 1.05m),
+                new RiskPremiumsData(poType1, personal, 1),
+                new RiskPremiumsData(poType1, comercial, 1.05m),
 
                 // ประเภท 2
-                new RiskPremiums(poType2, personal, 1),
-                new RiskPremiums(poType2, comercial, 1.05m),
+                new RiskPremiumsData(poType2, personal, 1),
+                new RiskPremiumsData(poType2, comercial, 1.05m),
 
                 // ประเภท 3
-                new RiskPremiums(poType3, personal, 1),
-                new RiskPremiums(poType3, comercial, 1.05m),
+                new RiskPremiumsData(poType3, personal, 1),
+                new RiskPremiumsData(poType3, comercial, 1.05m),
             };
             // - การใช้เพื่อการพาณิชย์
 
         }
     }
 
-    public record VehicleType
+    public record VehicleTypeData
     {
         public string? Code { get; set; }
         public string? Description { get; set; }
     }
 
-    public record VehicleUsage
+    public record VehicleUsageData
     {
         public string? Code { get; set; }
         public string? Description { get; set; }
     }
 
-    public record BasePremiums(string PolicyType, decimal MinPremiums, decimal MaxPremiums);
-    public record RiskPremiums(string PolicyType, string Code, decimal Rate);
+    public record BasePremiumsData(string PolicyType, decimal MinPremiums, decimal MaxPremiums);
+    public record RiskPremiumsData(string PolicyType, string Code, decimal Rate);
 }

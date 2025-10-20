@@ -7,7 +7,7 @@ using System.Text;
 
 namespace InsuranceProducts.Tests.Domain.Products.Entities
 {
-    public class CoverageAvailability : Entity<Guid>
+    public sealed class CoverageAvailability : Entity<Guid>
     {
         public Guid? ProductId { get; protected set; }
         public Product? Product { get; protected set; }

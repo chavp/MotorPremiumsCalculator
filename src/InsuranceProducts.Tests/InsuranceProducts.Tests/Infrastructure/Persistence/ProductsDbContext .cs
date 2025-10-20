@@ -31,6 +31,9 @@ namespace InsuranceProducts.Tests.Infrastructure.Persistence
         public DbSet<UnitCategory> UnitCategories { get; set; }
         public DbSet<Unit> Units { get; set; }
 
+        // Products Features
+        public DbSet<VehicleUsage> VehicleUsages { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -84,6 +87,9 @@ namespace InsuranceProducts.Tests.Infrastructure.Persistence
             // Unit Of Measure
             modelBuilder.Entity<UnitCategory>().ToTable("UnitCategories", productsSchemas);
             modelBuilder.Entity<Unit>().ToTable("Units", productsSchemas);
+
+            // Product Features
+            modelBuilder.Entity<VehicleUsage>().ToTable("VehicleUsages", productsSchemas);
         }
 
         private static void ConfigureConventions(ModelBuilder modelBuilder)
