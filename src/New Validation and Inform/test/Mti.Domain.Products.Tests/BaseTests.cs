@@ -20,7 +20,7 @@ namespace Mti.Domain.Products.Tests
         // docker run --name insurance-db -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin123 -d -p 5432:5432 postgres
 
         protected string _con = "Host=localhost;Port=5432;Database=insurance-db;Username=admin;Password=admin123";
-        protected string _conSource = "Data Source=MTIDDDB02;Initial Catalog=NewValidateDB;TrustServerCertificate=True;User ID=nvld_rwuser;Password=$nvLd@57489;";
+        protected string _conSource = "Data Source=XXXX;Initial Catalog=NewValidateDB;TrustServerCertificate=True;User ID=xxxxx;Password=xxxxx;";
 
         protected ProductsDbContextFactory _factory;
 
